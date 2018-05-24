@@ -1,0 +1,27 @@
+
+spring:
+  profiles:
+    active: local
+
+---
+spring:  
+  profiles: local
+  application:
+    name: techannotation-booking-service-dao
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: bookingOpenShift
+---      
+spring:  
+  profiles: openshift
+  application:
+    name: techannotation-booking-service-dao
+  data:
+    mongodb:
+      host: 172.30.8.110
+      port: 27017
+      username: mongo-user
+      password: mongo-passwd
+      database: bookingOpenShift
