@@ -24,4 +24,4 @@ spring:
       port: 27017
       username: mongo-user
       password: mongo-passwd
-      database: bookingOpenShift
+      database: users
