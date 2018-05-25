@@ -22,6 +22,6 @@ spring:
     mongodb:
       host: 172.30.8.110
       port: 27017
-      username: mongo-user
-      password: mongo-passwd
-      database: users
+      username: booking-usr
+      password: booking-pwd
+      database: booking
